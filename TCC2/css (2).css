@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	}
+	
+#wrapper{
+	background:#007CCF;
+	width:650px;
+	margin: auto;
+	padding: 5px;
+	height: 165px;
+}	
+.first{
+	background: #CCCCFF;
+	
+	}
+.
+
+#header{
+	background:#0099FF;
+	margin:0 0 5px 0;
+}	
+#nav{
+	background:#0099FF;
+	height: 165px;
+	margin-top: 5px
+}	
+#content{
+	background: white;
+	width:440px;
+	margin-top:5px;
+	margin-bottom: 2px;
+	float: right;
+	font-family: arial;
+	font-size: 12px;
+}	
+.title{
+	font-family: Arial;
+	font-size: 16px;
+	color: blue;
+}

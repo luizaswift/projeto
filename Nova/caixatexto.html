@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset = "UTF-8"/>
+		<title> Um formulário com caixa de texto </title>
+	</head>
+	<body>
+		<form method = "GET" action = "caixatexto.php">
+			Digite seu nome: <input type= "text" size= "30"
+							name= "txtNome">
+			<input type= submit value= "Enviar">
+			<br>
+			<br>
+			Digite seu e-mail: <input type="text"  name="email"/>
+			<br>
+			<br>		
+			
+			<input type="radio" name="sex" value="masculino"> Masculino
+
+			<input type="radio" name="sex" value="feminino"> Feminino			
+			<br>
+			<br>
+			Assunto :<input type="textarea" class="input_text" name="assunto"/>
+			<br>
+			<br>		
+			Sugestão:
+			<br>
+	
+			<textarea class="message" name="feedback" ></textarea> 
+			
+			<br>
+			<br>
+			
+			<br>
+			Qual sua opnião sobre o curso?
+				<br>
+				<input type="checkbox" name="curso" value = "Exelente">
+				Exelente
+				<br>
+				<input type="checkbox" name="curso" value = "Bom">
+				Bom
+				<br>
+				<input type="checkbox" name="curso" value = "Regular">
+				Regular
+				<br>
+				<input type="checkbox" name="curso" value = "Ruim">
+				Ruim
+				<br>
+				<input type="checkbox" name="curso" value = "Pessimo">
+				Pessimo
+				<br>
+				<br>
+				<br>
+				 Você se enteressa por outros cursos? <br /> 
+				<input type="radio" name="cur" value="sim"/>Sim <br /> 
+				<input type="radio" name="cur" value="nao"/>Não 
+				<br>
+				
+				<select name="cursonow" select id="lista1" size="3">
+					Qualo cuso que esta fazendo?
+					<option value="Informatica" selected="selected">Informatica</option>
+					<option value="Edificações">Edificações</option>
+					<option value="Administração">Administração</option>
+					<option value="Meio Ambiente">Meio Ambiente</option>
+				</select>
+				<br>
+				<input type= submit value= "Enviar">
+		</form>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,57 @@
+#header{
+
+position:absolute;
+left:1px;
+
+height:68px;
+background-color:black;
+border-bottom: solid 2px #363636;
+}
+
+#menu{
+position:absolute;
+width:558px;
+height:52px;
+background-color:black;
+top:14px;
+left:557px;
+border-bottom: solid 2px #363636;
+}
+#menu ul{
+
+    padding:7px;
+	margin:5px;
+	list-style:none;
+	position:absolute;
+	font-family:tahoma; 
+	font-size:15px;
+ }
+#menu  li { display: inline;
+
+
+
+ }
+
+#menu ul li a {
+    
+    padding: 8px 32px;
+	display: inline-block;
+    padding-top:8px;
+    color: white;
+	text-decoration: none;
+    margin:0px;
+	
+}
+
+
+#menu ul li a:hover {
+	background-color:#6495ED;
+	color: white;
+	
+	}
+
+
+
+h1{
+text-shadow: 2px 2px #363636;
+}

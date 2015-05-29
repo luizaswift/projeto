@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	}
+	
+form,input,select,textarea{
+						margin:0; padding:0; color:#000000;
+					} 
+.box { 
+	margin:0 auto; 
+	width:550px; 
+	background:blue  ; 
+	position:relative; 
+	top:10px; 
+	border:5px solid black; 
+	} 
+h1 {
+	color:white; 
+	font-size:18px; 
+	text-transform:uppercase; 
+	padding:5px 0 5px 5px; 
+	border-bottom:3px solid #161712; 
+	border-top:3px solid #161712; 
+  } 
+label { 
+	width:100%; 
+	display: block; 
+	background:#3333FF  ; 
+	border-top:1px solid #262626; 
+	border-bottom:1px solid #161712; 
+	padding:10px 0 10px 0; 
+	} 
+span { 
+	display: block; 
+	color:white; 
+	font-size:12px; 
+	float:left; width:100px; 
+	text-align:right; 
+	padding:5px 20px 0 0; 
+	} 
+.input_text { 
+			padding:10px 10px; 
+			width:200px; 
+			background:#fff; 
+			border-bottom: 1px double #171717; 
+			border-top: 1px double #171717; 
+			border-left:1px double #333333; 
+			border-right:1px double #333333; 
+			} 
+.message{ 
+			padding:7px 7px; 
+			width:350px; 
+			background:white; 
+			border-bottom: 1px double #171717; 
+			border-top: 1px double #171717; 
+			border-left:1px double #333333; 
+			border-right:1px double #333333; 
+			overflow:hidden; 
+			height:50px; 
+		} 
+.button{ 
+		margin:0 0 10px 0; 
+		padding:4px 7px; 
+		background:white; 
+		border:0px; 
+		position: relative; 
+		top:10px; 
+		left:200px; 
+		width:100px; 
+		border-bottom: 1px  #660000; 
+		border-top: 1px #660000; 
+		border-left:1px  #FF0033; 
+		border-right:1px  #FF0033;
+		color:black;
+		}
+
+#wrapper{
+	background:white;
+	width:1250px;
+	margin: auto;
+	border-color: black;
+	border: 1px solid;
+	
+	
+}
+
+#header{
+	background:#072A7B;
+	height: 150px;
+	width: 1250px;
+	border-color: black;
+	border: 5px;
+}	
+#menu{
+	background:#0099FF;
+	height: 40px;
+	border:5px solid black;
+	
+}
+.submenu{
+	background:#0099FF;
+	height: 20px;
+	width: 170px;
+	border:5px solid black;
+	text-align: center;
+	color: white;
+	
+}
+ .drop_menu {
+
+	padding:0;
+	margin:0px 0px 0px 180px;
+	list-style-type:none;
+	height: 25px;
+}
+.drop_menu li { 
+	float:left; 
+}
+.drop_menu li a {
+	padding: 14px 50px;
+	display:block;
+	color: white;
+	text-decoration:none;
+	font-size: 17px;
+	font-family: impact;
+	background:#0099FF;
+	height: 20px;
+	width: 170px;
+	border:5px solid black;
+	text-align: center;
+}
+
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+	height:30px;
+}
+.drop_menu li:hover { 
+	position:relative; 
+	background: purple; 
+	height:50px;
+	
+}
+.drop_menu li:hover ul {
+	left:0px;
+	top:40px;
+	padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+	padding:10px;
+	display:block;
+	width:50px;
+	text-indent:15px;
+	background-color:white;
+}
+.drop_menu li:hover ul li a:hover { 
+	background: white; 
+}
+		
+#content{
+
+	height: 505px;
+	width: 1000px; 
+	float: right;
+}	
+
+	
+#sidebar{
+	background-color: #072A7B;
+	height: 700px;
+	width: 170px;
+	float: left;
+	border:5px solid black;
+	
+}
+#footer{
+	background:white;
+	height: 80px;
+	clear: both;
+	border-color: black;
+	border: 1px solid;
+}
+.title1{
+	font-family: Arial black;
+	font-size: 18px;
+	color: blue;
+	display: inline;
+	padding: 20px;
+	margin-left: 20px;
+	position: center;
+	padding:0;
+	margin:0px 0px 0px 180px;
+	list-style-type:none;
+	
+}
+.title10{
+	font-family: Arial black;
+	font-size: 18px;
+	color: blue;
+	position: center;
+	padding: 20px;
+	border:5px solid black;
+	
+}
+.title{
+	font-family: Arial;
+	font-size: 25px;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+	
+
+}
+.caixa{
+	border:5px solid black;
+	
+}	
+.title3{
+	font-family: Arial;
+	font-size: 25px;
+	margin-left: 300px;
+	margin-top: 200px;
+}	
+.title4{
+	font-family: Arial;
+	font-size: 25px;
+	margin-left: 550px;
+	margin-top: 5px;
+
+}

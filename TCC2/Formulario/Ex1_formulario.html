@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta charset="utf-8" /> 
+	<title>Formulários</title>
+</head>
+	<form><!--Campo de texto-->
+		Nome Completo:  <input type="text" name="nome_do_usuario"/> 
+		</br>
+		 Nome Completo com valor:  <input type="text" name="nome_do_usuario" value="Maik Basso" size="40" />
+				
+		</br>
+		
+		 Comente aqui 
+		 <textarea class="message" name="feedback" ></textarea> 
+		  </br>
+		  <!--Campo de senha-->
+		  Senha: <input type="password" name="senha_do_usuario"/>
+		  <input type="reset" name="botao_limpar" value="Limpar"/> 
+	</form>
+	
+	<hr/>
+	<form><!--Botões de seleção radio-->
+		<input type="radio" name="sex" value="male"> Masculino
+		<br>
+		<input type="radio" name="sex" value="female"> Feminino
+	</form>
+	<hr/>
+	<form> <!--Caixa de seleção-->
+		<input type="checkbox" name="bike">
+		Eu tenho uma bicicleta
+		<br>
+		<input type="checkbox" name="car">
+		Eu tenho um carro
+	</form>
+	<form>
+		<input type="button" name="meu_botao" value="Clique aqui!"/>
+		<hr/>
+		 <input type="file" name="imagem"/> <!--Campo para a seleção de arquivos  -->
+	</form>
+	<hr/>
+	<form> <!--Botão limpar e botão enviar -->
+		<input type="reset" name="botao_limpar" value="Limpar"/> 
+		<input type="submit" name="botao_enviar" value="Enviar"/> 
+	</form>
+	<hr/>
+	<form> <!--Menu drop-down: -->
+		Qual é o seu estado? <br /> 
+		<select name="estado"> 
+			<option>RS</option> 
+			<option>SC</option> 
+			<option>PR</option> 
+			<option>RJ</option> 
+			<option>SP</option> 
+		</select> 
+	</form>
+	
+	<form> <!--Lista de opções com barra de rolagem -->
+		Qual é o seu estado? <br /> 
+		<select multiple name="estado"> 
+			<option selected value = "RS">Rio grande do Sul 
+			<option value = "SC"> Santa catarina 
+			
+		</select> 
+	</form>
+
+
+	</body> 
+</html>

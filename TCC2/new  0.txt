@@ -1,0 +1,8 @@
+html>
+<head>
+	<meta charset = "UTF-8"/>
+	<input type = "text" name = "nome" vslue = "Digite seu nome">
+	</br>
+	Comente aqui
+</head>
+</html>
